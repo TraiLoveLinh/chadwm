@@ -4,6 +4,7 @@ xrdb merge ~/.Xresources
 xbacklight -set 10 & 
 picom &
 ibus-daemon &
+/usr/lib/mate-polkit/polkit-mate-authentication-agent-1 &
 
 feh --bg-fill ~/Pictures/Wallpapers/ayu-mirage.png 
 #feh --bg-fill ~/Pictures/Wallpapers/aihh.jpg 
